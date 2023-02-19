@@ -48,6 +48,9 @@ const startBtn = document
         const third = document.getElementById("third");
         third.style.visibility = 'visible';
         third.innerText = "The word was " + random;
+        setTimeout(() => {
+            window.location.href = "index.html";
+          }, 1000);
       }
     });
     //type the word message
